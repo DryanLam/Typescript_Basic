@@ -132,17 +132,12 @@ let pathExpression = jp.stringify(['$', 'store', 'book', 0, 'author']); // "$.st
 
 
 // Concat
-let a1 = {"ID": "abc", "NAME":"bcd"};
-// let b1 = {"NAME":"bcd","ID": "abc"};
-let b1 = {"TIM":"bcd","HI": "abc", "NAME":"ola"};
+let obj1 = [ { t: 1, d: 'AAA', v: 'yes' },
+         { t: 2, d: 'BBB', v: 'yes' }]
 
-let c1 = Object.assign(a1, b1);
-let c2 = {...a1,...b1};
+let obj2 = [ { t: 3, d: 'CCC', v: 'yes' },
+        { t: 4, d: 'DDD', v: 'yes' }]
 
-let va = JSON.stringify(a1) + JSON.stringify(b1);
-va = va.replace("}{",",");
-let c3 = JSON.parse(va);
 
-console.log(c1);
-console.log(c2);
-console.log(va);
+let obj3 = obj1.concat(obj2);
+console.log(JSON.stringify(obj3));
