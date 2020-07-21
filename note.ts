@@ -1,4 +1,9 @@
 /*
+HOW TO USE
+    1. npm install
+*/
+
+/*
     Shift + Cmd + K          : Delete line
     Opt + up/down            : Move line
     Opt + Shift + up/down    : Duplicate line
