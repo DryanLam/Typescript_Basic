@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "out",
+      "sourceMap": true,
+      "lib": ["es2017","DOM"],
+      "esModuleInterop": true,
+      "watch": true,
+      "allowJs": true,
+    },
+    "include": ["Concrete/**/*"],
+    "exclude": ["node_modules"]
+}
