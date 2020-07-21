@@ -16,6 +16,13 @@ Compile:
 */
 
 /*
+Save lib to package.json
+    Install with: npm install <packagename> --save
+    OR
+    Install with: npm install <packagename> --save-dev
+*/
+
+/*
 THEN promises.
     RETURN to next function use the upward data
 */
