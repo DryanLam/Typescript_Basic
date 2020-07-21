@@ -16,6 +16,11 @@ Compile:
 */
 
 /*
+THEN promises.
+    RETURN to next function use the upward data
+*/
+
+/*
 Namespace:
     + Must use the namespace keyword & export keyword
     + To use namespace >> ///<reference path="path to namespace file" />
