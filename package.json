@@ -4,7 +4,7 @@
     "start": "tsc"
   },
   "dependencies": {
-    "jsonpath": "^1.0.2",
+    "jsonpath": "^1.1.1",
     "node-fetch": "2.6.0"
   },
   "devDependencies": {
